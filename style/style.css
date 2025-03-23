@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+
+body {
+    background-color: #eee;
+    padding: 2em;
+    margin-inline: 30em;
+}
+
+.border {
+    width: fit-content;
+    border: 2px solid;
+    padding: 10px;
+    background-color: beige;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.border-fizz {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    width: 220px;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+}
+
+.border-tip {
+    border: 2px solid;
+    padding: 10px;
+    background-color: #f5dcdc;
+}
+
+.border-tryagain {
+    border: 2px solid;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 110px;
+    background-color: #f5dcdc;
+}
+
+#text {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+#startBtn {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: blue;
+}
+
+#startBtn:hover {
+    cursor: pointer;
+}
+
+#question-quiz {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.alt {
+    font-size: 20px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.alt:hover {
+    cursor: pointer;
+}
+
+#moveOn-box {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+#moveOn-box:hover {
+    cursor: pointer;
+}
+
+#result-quiz {
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#test2-box {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#test2-box:hover {
+    cursor: pointer;
+}
+
+.fizz-box:hover {
+    cursor: pointer;
+}
+
+#protip-box {
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 300px;
+    margin-top: 60px;
+}
+
+#result-fizz {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+#memory-intro {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+#memory-intro:hover {
+    cursor: pointer;
+}
+
+#test3-box {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: blue;
+}
+
+#test3-box:hover {
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    gap: 1em 1em;
+}
+
+.picture-box {
+    width: 200px;
+    height: 200px;
+    outline: 4px solid black;
+}
+
+.picture-box:hover {
+    box-shadow: 0 0 15px 10px rgb(23, 27, 31);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.hide {
+    content-visibility: hidden;
+}
+
+.memory-objlist {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#result-memory {
+    grid-column: 1/4;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+#showIQ {
+    font-size: 20px;
+    margin-top: 40px;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+#showIQ:hover {
+    cursor: pointer;
+}
+
+#the-end {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+#try-again {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 110px;
+    font-size: 40px;
+}
+
+#try-again:hover {
+    cursor: pointer;
+}
